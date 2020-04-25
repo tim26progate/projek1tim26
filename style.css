@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.navbar{
+    font-family: poppins;
+    overflow: hidden;
+    background-color:#dcc09a;
+}
+
+.nav-logo{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-item{
+    display: inline-block;
+    float:right;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #20382a;
+}
+/*content tron*/
+
+.tron{
+    background-color:#20382a;
+    color: #ffff;
+    height: 500px;
+}
+
+.tron .kiri{
+    width: 58%;
+    margin:100px 0 0 40px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.tron .kiri p{
+    width: 50%;
+    margin-top: 20px;
+    font-family: helvetica;
+}
+.tron .kanan{
+    width:36%;
+    float: right;
+    display: inline-block;
+    
+}
+
+.tron .kanan img{
+    width: 100%;
+}
+
+.tron .btn{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 20%;
+    height: 30px;
+    background-color:#dcc09a ;
+    border-radius: 38px;
+}
+.tron .kiri a{
+    color:#20382a ;
+    text-decoration: none;
+    
+}
+
+.kiri .btn p{
+    margin: auto;
+    font-family: poppins;
+}
+
+/*END TRON */
+
+/*member*/
+.container{
+    margin-top: 40px;
+}
+.member{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card{
+    border-radius: 20px;
+    width: 20%;
+    height: 400px;
+    background-color:#b59364 ;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.card-image img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-text{
+    text-align: center;
+    color: white;
+}
+/*END member*/
+
+/*container bawah*/
+.bawah{
+    background-image: linear-gradient(#b59364, #5b4a32);
+    color: white;
+    
+}
+
+.judul{
+    text-align: center;
+}
+
+.bawah .btn{
+    background-color:#dcc09a ;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-align: center;
+}
+.bawah a{
+    text-decoration: none;
+    color: #20382a;
+}
+
+.btn-wrapper{
+    margin-top: 40px;
+    
+}
+.btn .signup{
+    margin: auto;
+}
+/*END container bawah*/
+
+footer{
+    margin-top: 40px;
+    background-color:#dcc09a ;
+}
+
+footer img{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+footer p{
+    color:#707070;
+    display: inline-block;
+    text-align: center;
+}
