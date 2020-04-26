@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.navbar{
+    font-family: poppins;
+    display: hidden;
+    background-color:#dcc09a;
+	height: 60px;
+}
+
+.nav-logo img{
+	margin-top: -10px;
+	height: 70px;
+    float: left;
+    display: inline-block;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 20px 10px 10px 10px;   
+	float: right;
+}
+
+
+.navbar li{
+    display: inline-block;
+    margin-right: 15px;
+	font-size:18px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #20382a;
+}
+/*content tron*/
+
+.tron{
+    background-color:#20382a;
+    color: #ffff;
+    height: 600px;
+}
+
+.tron .tengah{
+    float: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.tron .tengah img{
+    width: 50%;
+}
+.tron .tengah1 {
+	margin-top: -10px;
+	text-align: center;
+}
+/*END TRON */
+
+/*member*/
+.container{
+    margin-top: 40px;
+	height: 610px;
+	text-align: center;
+}
+.member{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.card{
+    border-radius: 20px;
+    width: 16%;
+    height: 400px;
+    background-color:#b59364 ;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.card-image img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-text{
+    text-align: center;
+    color: white;
+}
+/*END member*/
+
+/*Kontak*/
+.bawah{
+    background-image: linear-gradient(#b59364, #5b4a32);
+    color: white;
+    height: 650px;
+}
+
+.judul{
+    text-align: center;
+}
+
+.lists h3{
+    font		: 20px SF Sports Night NS Upright;
+}
+.lists ul li {
+	font				: 20px SF arial;
+	display				: inline-block;
+	text-align			: center;
+	font-weight			: bold;
+	margin-left			: 50px;
+	margin-right		: 50px;
+	margin-top			: 10px;
+}
+.lists ul li img {
+	float				: center;
+    display				: block;
+    width				: 100px;
+    height				: 100px;
+    margin				: auto;
+	margin-top			: 25px;
+	margin-bottom		: 25px;
+}
+.lists ul li a{
+	color				: black;
+	padding				: 5px;
+}
+
+#kontak img {
+    height: 50px;
+    width: 50px;
+	margin-top	:50px;
+}
+#kontak a {
+    text-decoration: none;
+}
+#kontak img:hover {
+    opacity: 0.8;
+}
+#kontak p{
+	text-decoration		: none;
+	color				: black;
+	padding				: 5px;
+}
+#kontak p:hover {
+	background-color	: lightskyblue;
+	color				: white;
+}
+#kontak {
+    text-align: center;
+}
+
+/*END container bawah*/
+
+footer{
+    margin-top: 40px;
+    background-color:#dcc09a ;
+}
+
+footer img{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+footer p{
+	margin: auto;
+    color:black;
+    display: inline-block;
+    text-align: center;
+}
